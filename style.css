@@ -1,0 +1,235 @@
+body {
+    margin: 0;
+    background: linear-gradient(to bottom,#5597ff84,#fff4aa9a);
+    background-repeat: no-repeat;  
+}
+nav{
+    background: linear-gradient(to right,#46d2c18e,#00abff57);       
+    width: 100%;
+    overflow: auto;           
+}
+nav ul{
+    font-size: 20px;
+    text-decoration: none;
+    padding: 0;
+    margin: 0 0 0 150px;
+    list-style: none;         
+}
+nav li{  
+    float: left;
+    padding: 10px 10px 10px 10px;
+}
+nav a{
+    padding: 20px 20px 30px 20px;
+    color: #000000bb;
+    text-decoration: none;
+    display: block;
+    top: 80px;
+    font-weight: bolder;
+}          
+.logo{   
+    height: 100px;
+    width: 100px;    
+    border-radius: 100%;
+    position: absolute;
+    margin:0px 0  0 50px;
+            
+}
+nav a:hover{
+    background: #ee95ffbb;
+    border-radius: 15%;
+}
+div{
+    padding-bottom: 50px;
+}
+.up{
+    position: absolute;
+    margin: 20px 0 0 700px;
+    height: 300px;
+    width: 300px;
+}
+div h1{
+    margin: 0 300px 0 150px;
+    font-size: 80px;
+    padding: 30px;
+}
+.p{
+    margin: 0 300px 0 180px;
+    font-size: 30px;
+    text-align: left;
+    padding: 0 0 50px 0;
+}
+.pp{
+    pasition: absolute;
+    float: left;
+    height: 340px;
+    width: 340px;
+    padding: 0;
+    margin: 20px 0 0 65px;
+    border-radius: 50px;
+    
+}
+.intro{
+    margin: 0px 50px 0 30px;
+    font-size: 30px;
+    padding: 70px 0 100px 0;
+}
+.c{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    margin: 20px 0 0 180px;
+}
+.gmail{
+    padding: 50px 0 0 360px;
+    font-size: 40px;
+}
+.name{
+    padding: 50px 0 0 360px;
+    font-size: 40px;
+}
+.num{
+    padding: 50px 0 0 360px;
+    font-size: 40px;
+}
+.cal{
+    float: left;
+    position: absolute;
+    margin: 20px 0 0 160px;
+    border-radius: 30%;
+}
+.cel{
+    float: left;
+    position: absolute;
+    margin: 110px 0 0 310px;
+    border-radius: 30%;
+}
+.col{
+    float: left;
+    position: absolute;
+    margin: 210px 0 0 200px;
+    border-radius: 30%;
+}
+.ml{
+   float: left;
+   position: absolute;
+   margin: 430px 0 0 200px; 
+}
+.anime{
+    float: left;
+    position: absolute;
+    margin: 730px 0 0 180px;
+}
+.hab{
+    margin: 100px 0 0 600px;
+    font-size: 40px;
+}
+.heb{
+    margin: 300px 0 0 600px;
+    font-size: 40px;
+}
+.hob{
+    margin: 280px 0 0 600px;
+    font-size: 40px;
+}
+.map{
+    margin: 100px 0 0 200px;
+}
+footer{
+    text-align: center;
+    padding: 30px;
+    background-color: #8bbeee8e;
+    font-size: 20px;
+}
+.o{
+    position: absolute;
+    height: 100px;
+    width: 180px;
+    border-radius: 100%;
+    margin: 20px 0 0 140px;
+}
+.z{
+    height: 300px;
+    width: 300px; 
+    margin: 20px 0 20px 340px;   
+    border-radius: 40px;
+    text-align: center;
+}
+.w{
+    height: 300px;
+    width: 300px;
+    margin: 20px 0 20px 340px;
+    border-radius: 40px;
+}
+.m{
+    height: 300px;
+    width: 300px;   
+    margin: 20px 0 20px 340px;
+    border-radius: 40px;
+}
+.zen{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+@media (max-width: 670px) {
+    nav ul {
+        flex-direction: column;
+        margin: 20px 0;
+    }
+
+    .logo {
+        height: 60px;
+        width: 60px;
+    }
+
+    .up {
+        height: 150px;
+        width: 150px;
+    }
+
+    div h1 {
+        font-size: 2rem;
+    }
+
+    .p {
+        font-size: 1rem;
+        max-width: 400px;
+    }
+    .zen{
+        font-size: 2 rem;
+    }
+}
+
+@media (max-width: 800px) {
+    nav ul {
+        padding: 10px;
+    }
+
+    .logo {
+        height: 50px;
+        width: 50px;
+        top: 5px;
+        left: 10px;
+    }
+
+    .up {
+        height: 100px;
+        width: 100px;
+    }
+
+    div h1 {
+        font-size: 1.5rem;
+    }
+
+    .p {
+        font-size: 0.9rem;
+        max-width: 300px;
+    }
+    .zen{
+        font-size: 2 rem;
+    }
+}
